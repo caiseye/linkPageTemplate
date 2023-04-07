@@ -1,5 +1,7 @@
 body {
     min-height: 100%;
+    width: 393px;
+    height: 852px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -7,6 +9,50 @@ body {
     align-items: center;
 }
 
+h1 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+h2 {
+    font-size: 12px;
+    text-align: center;
+    text-decoration-color:silver;
+    margin-bottom: 0.5em;
+  }
+
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration-color:dimgray;
+    margin-bottom: 0.5em;
+  }
+
 button {
     width: 200px;
+}
+
+
+.thumbnail{
+    border-radius: 8%;
+    width: 300px;
+    background-color: "";
+    opacity: "1";
+
+}
+.thumbnail:hover{
+    border-radius: 8%;
+    background-color: "rgba(128, 128, 128, 0.5)";
+    opacity: "0.5";
+}
+
+#profile_img {
+    width: 100px;
+    height: 100px;
+}
+
+.pictures {
+    width: 300px
 }
